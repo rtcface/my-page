@@ -8,9 +8,9 @@ export const Navbar = () => {
   return (
     <nav className="flex justify-between items-center mx-4 my-4 bg-gradient-to-r from-gray-200 from-90%  dark:bg-gradient-to-r dark:from-gray-950 dark:from-1%  rounded-xl">
       <div
-        className="flex justify-center items-center h-16 gap-2 w-36 
-      transition ease-in-out delay-150 bg-gradient-to-l from-gray-300 from-10% dark:bg-gradient-to-l dark:from-gray-500 dark:from-10% hover:bg-gradient-to-r
-       rounded-xl dark:text-white font-black m-2  dark:hover:bg-gradient-to-r "
+        className="transition ease-in-out delay-150 flex justify-center items-center h-16 gap-2 w-36 
+       bg-gradient-to-l from-gray-300 from-10% dark:bg-gradient-to-l dark:from-gray-500 dark:from-10% 
+       rounded-xl dark:text-white font-black m-2  "
       >
         <CodeBracketIcon className="h-8 w-8" />
         <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-950 to-indigo-400 dark:from-indigo-500 dark:to-gray-100">

@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="es" className="dark">
       <body className={inter.className}>
-        <div className="grid grid-colums-4 min-h-screen bg-gray-100 dark:bg-gradient-to-r from-blue-900 to-pink-900 ">
+        <div className="grid grid-colums-4 min-h-screen bg-gray-100 dark:bg-gradient-to-r from-blue-900 to-pink-900 bg-scroll">
           {/* bg-gray-900 */}
           <header className="col-span-4 h-30">
             <Navbar />
